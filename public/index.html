@@ -24,6 +24,7 @@
                                 :value="key" 
                                 @change="answered($event)"
                                 :disabled = "selectedAnswer != ''"
+                                v-model="selectedAnswer"
                             />
                             {{option}}
                         </label>
